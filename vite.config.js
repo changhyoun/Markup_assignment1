@@ -6,5 +6,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ['swiper'],
   },
-  base: "./",
+  base: '/Markup_assignment1/',
 })
