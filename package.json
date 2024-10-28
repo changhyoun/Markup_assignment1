@@ -1,9 +1,9 @@
 {
-  "homepage": "https://github.com/changhyoun/Markup_assignment1",
   "name": "markup_assignment1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://github.com/changhyoun/Markup_assignment1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
