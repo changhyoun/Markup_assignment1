@@ -1,12 +1,16 @@
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Container from './components/Container';
 
 function App() {
   return (
-    <div id='App'>
-      <Container/>
+    <Router basename="/Markup_assignment1">
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Container />} />
+      </Routes>
     </div>
+  </Router>
   );
 }
 
